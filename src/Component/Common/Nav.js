@@ -1,10 +1,19 @@
 import React from 'react';
+import CustomLink from './CustomLink';
+
+
 
 const Nav = () => {
+
     return (
-        <div>
-            <h2>This is a navigation</h2>
-        </div>
+        <nav>
+            <ul className={`flex bg-white justify-center w-full sticky font-semibold`}>
+                <CustomLink  className="mx-2 md:mx-5" to="/">Home</CustomLink>
+                <CustomLink  className="mx-2 md:mx-5" to="/services">services</CustomLink>
+                <CustomLink  className="mx-2 md:mx-5" to="/about">About</CustomLink>
+                <CustomLink  className="mx-2 md:mx-5" to="/login">Login</CustomLink>
+            </ul>
+        </nav>
     );
 };
 
