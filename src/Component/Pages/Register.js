@@ -73,7 +73,7 @@ const Register = () => {
                         <input className="border-2 rounded px-2 w-1/2 border-gray-500 mr-4 flex justify-start" type="password" name="confirmPassword" required />
                     </div>
                     <input onClick={() =>setAgree(!agree)} type="checkbox" name="terms" id="terms" />
-                    <label className={agree ? 'ml-1 text-green-500' : 'text-red-500 ml-1'} htmlFor="terms">Accept Genius Terms & Conditions</label>
+                    <label className={agree ? 'ml-1 text-green-500' : 'text-red-500 ml-1'} htmlFor="terms">Accept All Terms & Conditions</label>
                     <p className='text-red-500 font-semibold'>{error.length>6 ? error : <>{error1?.message.length > 5 ? error1?.message : error2?.message}</>}</p>
                     <input className={`bg-neutral-400 p-1 w-1/4 rounded font-semibold duration-300 my-2 ${agree ? 'hover:bg-green-400 hover:text-white' : 'disabled:opacity-75'}`} disabled={!agree} type="submit" value="Sign Up" />
                 </form>

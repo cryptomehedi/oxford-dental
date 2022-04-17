@@ -31,9 +31,6 @@ const Login = () => {
         const email= emailRef.current.value
         const password = passwordRef.current.value
         signInWithEmailAndPassword(email, password)
-        if(!error?.message){
-            toast("Login Successfully")
-        }
     }
     const navigateRegister =() =>{
         navigate('/register')
