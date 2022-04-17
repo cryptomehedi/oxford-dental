@@ -8,9 +8,10 @@ const Nav = () => {
     return (
         <nav>
             <ul className={`flex bg-white justify-center w-full sticky font-semibold`}>
-                <CustomLink  className="mx-2 md:mx-5" to="/">Home</CustomLink>
+                <CustomLink  className="mx-2 md:mx-5" to="/home">Home</CustomLink>
                 <CustomLink  className="mx-2 md:mx-5" to="/services">Services</CustomLink>
                 <CustomLink  className="mx-2 md:mx-5" to="/about">About</CustomLink>
+                <CustomLink  className="mx-2 md:mx-5" to="/blog">Blogs</CustomLink>
                 <CustomLink  className="mx-2 md:mx-5" to="/login">Login</CustomLink>
             </ul>
         </nav>
