@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
 const Service = ({service}) => {
-    const {img, name, price} = service;
+    const {img, name, price, description} = service;
     const navigate = useNavigate()
     const navigateToServiceDetail = name => {
         navigate(`/service/${name}`)
@@ -13,6 +13,7 @@ const Service = ({service}) => {
                 <img className='h-60' src={img} alt="" />
                 <p>Name: {name}</p>
                 <p>Price: ${price}</p>
+                <p>Description: <small>{description.slice(0,180)} ...<strong className='cursor-pointer'>Read more</strong> </small></p>
                 <button onClick={()=> navigateToServiceDetail(name)} className="bg-gray-400 px-2 hover:text-white font-semibold duration-300 hover:bg-[#384E62] mt-4 p-1 rounded">Book for :  {name}</button>
                 
             </div>
