@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { useCreateUserWithEmailAndPassword, useUpdateProfile} from 'react-firebase-hooks/auth'
 import { useLocation, useNavigate } from 'react-router-dom';
-import auth from '../../firebase.init';
-import Spinner from '../Spinner';
-import SocialLogin from './SocialLogin';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import auth from '../../firebase.init';
+import Spinner from '../Common/Spinner';
+import SocialLogin from '../Elements/SocialLogin';
 
 const Register = () => {
     const [error , setError] = useState('')
@@ -86,7 +86,7 @@ const Register = () => {
                     }
                 </div>
                 <p className='text-center'>Already Have An Account? <span  onClick={navigateLogin} className="text-yellow-400 cursor-pointer" to="/login">Login</span></p>
-                <SocialLogin></SocialLogin>
+                <SocialLogin/>
                 <ToastContainer />
             </div>
         

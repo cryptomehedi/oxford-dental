@@ -1,11 +1,12 @@
 import React, { useRef } from 'react';
 import { useSendPasswordResetEmail, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { useLocation, useNavigate } from 'react-router-dom';
-import auth from '../../firebase.init';
-import Spinner from '../Spinner';
-import SocialLogin from './SocialLogin';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import auth from '../../firebase.init';
+
+import Spinner from '../Common/Spinner';
+import SocialLogin from '../Elements/SocialLogin';
 
 const Login = () => {
     const [
@@ -74,7 +75,7 @@ const Login = () => {
                     }
             </div>
             <p className='text-center'>New in here? Please <span className="text-yellow-400 cursor-pointer" onClick={navigateRegister} >Register</span></p>
-            <SocialLogin></SocialLogin>
+            <SocialLogin/>
             <ToastContainer />
         </div>
     );
