@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Porcelain Fillings",
+        "price": "300",
+        "description": "The process is a two-visit procedure. At the first visit we remove the unhealthy part of the tooth, whether that is decay, old mercury fillings, cracks, etc. We then prepare the design of your restoration for the ceramist to follow. Our master ceramist then creates a beautiful porcelain filling to fit your tooth exactly. Your second visit will follow after a couple weeks, and at this appointment we will bond the porcelain inlay or onlay to your tooth. Once your inlay or onlay is bonded in place, your tooth will be stronger than it was before and it will be able to bear up to 75% more chewing force. And, in some cases, your tooth will be just as strong as it was originally – before it was ever decayed or broken.",
+        "img": "https://www.orozen.com/wp-content/uploads/2020/02/e66e0a1f4142456996b8f2f338d3354f.png"
+    },
+    {
+        "id": 2,
+        "name": "Porcelain Bridges",
+        "price": "200",
+        "description": "A porcelain bridge is a treatment option for replacing a missing tooth. Atlanta Dental Spa takes great pride in producing bridges that look great, look natural, and are highly functional. We won’t accept anything less than the best in replacing a lost tooth or teeth. If for any reason you have lost a tooth or teeth which has resulted in a gap between your remaining teeth, you are likely a candidate for a bridge. Your other options are dental implant replacements, or removable partial dentures. When you schedule a consultation with Atlanta Dental Spa we will review each of these options with you to find out which is the best treatment for you.",
+        "img": "https://www.orozen.com/wp-content/uploads/2020/02/bridge1-1.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Teeth Whitening",
+        "price": "150",
+        "description": "Teeth whitening is by far the most popular cosmetic dental procedure. Dental Whitening procedures fit within almost any budget and the results are quick. There is a difference between teeth whitening and teeth bleaching. Whitening means to brighten your teeth by polishing away stains caused by foods and beverages (berries, coffee, wine, tea, etc). This stain removal whitens teeth back to their naturally white stage. Bleaching refers to lightening a tooth from the inside-out using peroxide. Bleaching brightens the inside (dentin) of the tooth, thereby making the whole natural tooth whiter.",
+        "img": "https://www.haiddentalassociates.com/wp-content/uploads/2019/08/Teeth-Whitening-Feature.jpg"
+    },
+    {
+        "id": 4,
+        "name": "No-prep Veneers",
+        "price": "180",
+        "description": "No-prep veneers have many different name brands, like Lumineers, DURAthins, Vivaneers and more. And everyone is asking about them! Here's why no-prep veneers are an increasingly popular choice for improving your smile. No-prep means we don't have to drill your teeth or reduce your tooth surface to fit the veneers to your smile. No-prep veneers are similar in nature to contact lenses. Because the porcelain used is so thin we can bond to your teeth without creating bulk. If you're a candidate for no-prep veneers, you can have the smile of your dreams without drilling and without having to be numbed!",
+        "img": "https://www.styleitaliano.org/wp-content/uploads/2016/04/n12.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Porcelain Veneers",
+        "price": "200",
+        "description": "You can think of a porcelain veneer a lot like a contact lens, but for your teeth! Porcelain veneers are extremely thin (0.3mm, about the thickness of a business card) sheets of porcelain that are bonded to the front of your tooth. Porcelain is the material of choice because it most naturally replicates human enamel. They are used to change the shape, color, size, and symmetry of the teeth and smile.",
+        "img": "https://vasseydentalpartners.com/wp-content/uploads/2021/07/iStock-1214416967-1920x1178.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Root Canals",
+        "price": "300",
+        "description": "A root canal is needed when damage occurs to a tooth's pulp. This can happen due to an injury or due to severe tooth decay. A root canal is often a dreaded procedure but is often the only alternative to having a tooth extracted. Root canals are also very effective at eliminating tooth pain. While root canals can take two or more appointments, the Atlanta Dental Spa team will work to make each appointment as comfortable as possible for you. ",
+        "img": "https://www.kanakacreekdental.ca/files/root-canal-dentist-maple-ridge.jpg"
+    }
+]
