@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Willam Jhon",
+        "ratings": "5",
+        "description": "I found this dentist office on Yelp after I found it impossible to get my usual office on the phone to make an appointment, and I must say that I’m soooo glad that they were unavailable because I’ve found a new dental home!! They open really early! I had a 7:30a appointment. Everyone was friendly, thorough, informative, and professional and made me feel right at home!.",
+        "img": "https://i.ibb.co/cQ2SNDL/120s-4.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Pitar Parkar",
+        "ratings": "4.4",
+        "description": "ADS was recommended to me due to my severe dental anxiety. I must say I am SO GLAD to have found it!! The space is beautiful, very spa-like. They were so kind, thorough, and patient. They explained everything & took plenty of time when I needed a moment to chill. I had a numbing gel, noise cancelling headphones, a TV on the ceiling & thank God for the Nitrous oxide! As well as a heated neck pillow and a blanket.",
+        "img": "https://i.ibb.co/Gkj4pXx/120s-3.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Jully Smith",
+        "ratings": "4.7",
+        "description": "Fantastic team and experience. Coming from someone who has had some terrible past experiences that kept me out of a dental chair for several years, they were truly great.",
+        "img": "https://i.ibb.co/GxPKLJ3/120s.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Willson Brown",
+        "ratings": "5",
+        "description": "Never would I have imagined I'd actually look forward to going to the dentist. This place is amazing.",
+        "img": "https://i.ibb.co/2SqFHQD/120s-2.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Jaki Minar",
+        "ratings": "4.5",
+        "description": "The team at Atlanta Dental Spa far surpassed any expectations on multiple occasions.  It’s rare to find such a competent group of people in a profession.  Specifically, Dr. Currie, Kelsi, and Jo-Beth run with dignity and respect. From the front of the office to Dentist’s chair in the back, one would find it difficult to find any negatives with this practice. 15/10!",
+        "img": "https://i.ibb.co/bJBKMVx/120s-5.jpg"
+    }
+]
