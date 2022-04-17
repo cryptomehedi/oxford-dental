@@ -13,7 +13,7 @@ function App() {
       <Header/>
       <div  className='px-4 md:px-16'>
         <Routes>
-          <Route path="/home" element={<Home/>} />
+          <Route path="/" element={<Home/>} />
           <Route path="/services" element={<Services/>} />
           <Route path='/service/:serviceId' element={<ServiceDetails/>}/>
           <Route path='/login' element={<Login/>} />

@@ -13,7 +13,7 @@ const Service = ({service}) => {
             <img className='h-60' src={img} alt="" />
             <p>Name: {name}</p>
             <p>Price: ${price}</p>
-            <button onClick={()=> navigateToServiceDetail(name)} className="bg-gray-400 hover:text-white font-semibold duration-300 hover:bg-[#384E62] mt-4 p-1 rounded">Book for :  {name}</button>
+            <button onClick={()=> navigateToServiceDetail(name)} className="bg-gray-400 px-2 hover:text-white font-semibold duration-300 hover:bg-[#384E62] mt-4 p-1 rounded">Book for :  {name}</button>
             
         </div>
         </div>
