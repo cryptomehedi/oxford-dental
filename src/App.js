@@ -3,6 +3,7 @@ import Footer from "./Component/Common/Footer";
 import Header from "./Component/Common/Header";
 import Home from "./Component/Pages/Home";
 import Login from "./Component/Pages/Login";
+import Register from "./Component/Pages/Register";
 import ServiceDetails from "./Component/Pages/ServiceDetail";
 import Services from "./Component/Pages/Services";
 
@@ -16,6 +17,7 @@ function App() {
           <Route path="/services" element={<Services/>} />
           <Route path='/service/:serviceId' element={<ServiceDetails/>}/>
           <Route path='/login' element={<Login/>} />
+          <Route path="/register" element={<Register/>}/>
         </Routes>
       </div>
       <Footer/>
