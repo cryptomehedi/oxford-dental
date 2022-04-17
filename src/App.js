@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Footer from "./Component/Common/Footer";
 import Header from "./Component/Common/Header";
+import CheckOut from "./Component/Pages/CheakOut";
 import Home from "./Component/Pages/Home";
 import Login from "./Component/Pages/Login";
 import Register from "./Component/Pages/Register";
@@ -18,6 +19,7 @@ function App() {
           <Route path='/service/:serviceId' element={<ServiceDetails/>}/>
           <Route path='/login' element={<Login/>} />
           <Route path="/register" element={<Register/>}/>
+          <Route path='/checkout' element={<CheckOut/>} />
         </Routes>
       </div>
       <Footer/>
